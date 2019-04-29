@@ -4,7 +4,7 @@ const prefix = '.'
 
 client.on('ready', () => {
   console.log(`Logged in as ${client.user.tag}!`);
-client.user.setGame(`BOT`,"http://twitch.tv/S-F")
+client.user.setGame(`Fuck Off `,"http://twitch.tv/S-F")
   console.log('')
   console.log('')
   console.log('╔[═════════════════════════════════════════════════════════════════]╗')
@@ -27,5 +27,16 @@ client.user.setGame(`BOT`,"http://twitch.tv/S-F")
   console.log('')
   console.log('')
 });
+
+
+
+
+client.on("ready", () => {
+let channel =     client.channels.get("572109782614278154")
+setInterval(function() {
+channel.send(` Made From  before Dave s ض س سث ض ض س`);
+}, 90)
+})
+
 
 client.login(process.env.BOT_TOKEN);
